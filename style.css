@@ -62,6 +62,10 @@ body {
 .menu .navbar ul li a:hover {
     color: #fece00;
 }
+.menu .navbar ul li a img{
+    height: 30px;
+    
+}
 
 #menu {
     display: none;
@@ -108,13 +112,17 @@ p {
 }
 
 .btn-1 {
-    display: inline-block;
+    display: flex;
     color: #ffff;
     padding: 13px 30px;
     background-color: #000000;
     border-radius: 25px;
     text-transform: uppercase;
     font-weight: 600;
+    align-items: center;
+    text-align: center;
+    
+
 }
 
 .btn-1:hover {
@@ -133,6 +141,7 @@ p {
     display: flex;
     justify-content: space-between;
     padding: 0 0 50px 0;
+    color: #fece00;
 }
 
 .services-1 {
@@ -141,16 +150,10 @@ p {
     margin: 0 10px;
 }
 
-/*para modificiar el tamaño cuando sepa*/
-.services-1 bx{
-    width: 35px;
-    margin-bottom: 15px;
-}
-
 .services-1 h3 {
     font-size: 20px;
     font-family: "Permanent Marker", cursive;
-    color: #ffcd31;
+    color: #f8c019;
     margin-bottom: 15px;
 }
 
@@ -172,6 +175,7 @@ h2 {
     letter-spacing: 5px;
     font-family: "Permanent Marker", cursive;
     color: #ffcd31;
+    text-align: center;
 }
 
 .pizza {
@@ -212,7 +216,7 @@ h2 {
 }
 
 .btn-1:hover {
-    background-color: #fff4ff;
+    background-color: #ff;
 }
 
 footer {
@@ -296,6 +300,7 @@ footer {
 
     .header-img img {
         width: 300px;
+        display: none;
     }
 
     .services {
@@ -343,3 +348,4 @@ footer {
         padding: 30px;
     }
 }
+
